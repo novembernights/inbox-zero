@@ -12,17 +12,21 @@ Created by **Jason Johnson**, and open for the community to build on.
 
 ## Inside the app
 
-| All Mail | Ask | Compose |
+| Home | All Mail | Ask |
 | :---: | :---: | :---: |
-| <img src="docs/screenshots/all-mail.png" width="230" alt="All Mail with fictional messages and an expanded new-email menu"> | <img src="docs/screenshots/ask.png" width="230" alt="Ask with the Metal orb and a text-question field"> | <img src="docs/screenshots/compose.png" width="230" alt="New Email composer with an example sender and empty recipient and message fields"> |
-| One library, clear actions | A Metal-rendered starting point | Write, reply, and attach |
+| <img src="docs/screenshots/home.png" width="230" alt="Home dashboard with a daily overview and Action, Waiting, Read Later, and Done queues in an empty mailbox"> | <img src="docs/screenshots/all-mail.png" width="230" alt="All Mail with fictional messages and an expanded new-email menu"> | <img src="docs/screenshots/ask.png" width="230" alt="Ask with the Metal orb and a text-question field"> |
+| Your day, at a glance | One library, clear actions | A Metal-rendered starting point |
+
+### Write and organize
+
+| Compose | Attachments | Message actions |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/compose.png" width="230" alt="New Email composer with an example sender and empty recipient and message fields"> | <img src="docs/screenshots/attachments.png" width="230" alt="Expanded photo, document, and folder attachment controls"> | <img src="docs/screenshots/action-rail.png" width="230" alt="Fictional email with a bottom Done and Read Later action rail"> |
 
 <details>
-<summary>More screenshots: message actions, attachments, and Settings</summary>
+<summary>Settings</summary>
 
-| Message actions | Attachment menu | Settings |
-| :---: | :---: | :---: |
-| <img src="docs/screenshots/action-rail.png" width="230" alt="Fictional email with a bottom Done and Read Later action rail"> | <img src="docs/screenshots/attachments.png" width="230" alt="Expanded photo, document, and folder attachment controls"> | <img src="docs/screenshots/settings.png" width="230" alt="Settings with disconnected email and calendar accounts"> |
+<img src="docs/screenshots/settings.png" width="230" alt="Settings with disconnected email and calendar accounts">
 
 </details>
 
