@@ -10,6 +10,8 @@ Turn an inbox into a workflow: **Action, Waiting, Read Later, and Done**. Explor
 
 Created by **Jason Johnson**, and open for the community to build on.
 
+[![CI](https://github.com/novembernights/inbox-zero/actions/workflows/ci.yml/badge.svg)](https://github.com/novembernights/inbox-zero/actions/workflows/ci.yml)
+
 ## Inside the app
 
 | All Mail | Ask | Compose |
@@ -128,7 +130,9 @@ python -m unittest -v test_app
 
 iOS Debug/Release and macOS Debug builds passed in the documented toolchain. Search/attachment smoke tests and seven relay tests passed. The app was installed and preview screens inspected in a fresh simulator.
 
-Interactive gestures, accessibility behavior, physical-device recording/intelligence, live provider flows, and notifications still need validation. There is no claim of a complete security audit or CI coverage. See [RELEASE_REVIEW.md](RELEASE_REVIEW.md) for the exact scope and remaining work.
+Pull requests run automatic privacy, relay, Swift regression, iOS build, and macOS build checks. See [CI coverage and troubleshooting](.github/CI.md).
+
+Interactive gestures, accessibility behavior, physical-device recording/intelligence, live provider flows, and notifications still need validation. There is no claim of a complete security audit. See [RELEASE_REVIEW.md](RELEASE_REVIEW.md) for the initial local scope and remaining work.
 
 ## Find your way around
 
