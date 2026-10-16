@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Setup and troubleshooting
+    url: https://github.com/novembernights/inbox-zero/blob/main/SETUP.md
+    about: Check simulator, account, signing, and optional relay setup first.
+  - name: Security reporting guidance
+    url: https://github.com/novembernights/inbox-zero/blob/main/SECURITY.md
+    about: Do not disclose vulnerabilities, real mail, or credentials in a public issue.
