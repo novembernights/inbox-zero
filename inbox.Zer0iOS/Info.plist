@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key><string>inbox.Zerø</string>
+	<key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key><string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLSchemes</key><array><string>$(GMAIL_REDIRECT_SCHEME)</string></array></dict></array>
+	<key>GMAIL_CLIENT_ID</key><string>$(GMAIL_CLIENT_ID)</string>
+	<key>GMAIL_REDIRECT_SCHEME</key><string>$(GMAIL_REDIRECT_SCHEME)</string>
+	<key>GMAIL_PUSH_TOPIC</key><string>$(GMAIL_PUSH_TOPIC)</string>
+	<key>PUSH_RELAY_BASE_URL</key><string>$(PUSH_RELAY_BASE_URL)</string>
+	<key>NSAppleIntelligenceUsageDescription</key><string>inbox.Zerø uses on-device Apple Intelligence to summarize, search, and draft email replies.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key><string>inbox.Zerø reads today’s calendar events to create your private daily briefing.</string>
+	<key>NSMicrophoneUsageDescription</key><string>inbox.Zerø uses the microphone when you dictate a reply.</string>
+	<key>NSSpeechRecognitionUsageDescription</key><string>inbox.Zerø transcribes your dictated reply on device.</string>
+	<key>UIApplicationSceneManifest</key><dict><key>UIApplicationSupportsMultipleScenes</key><false/></dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER).mail-refresh</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key><dict/>
+	<key>UIRequiredDeviceCapabilities</key><array><string>arm64</string></array>
+	<key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string></array>
+</dict>
+</plist>

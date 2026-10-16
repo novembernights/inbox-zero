@@ -1,0 +1,9 @@
+// No account, signing identity, OAuth application, or hosted service is supplied.
+INBOX_DEVELOPMENT_TEAM =
+GMAIL_CLIENT_ID =
+GMAIL_REDIRECT_SCHEME =
+GMAIL_PUSH_TOPIC =
+PUSH_RELAY_BASE_URL =
+
+// Local developer configuration is intentionally excluded from version control.
+#include? "Local.xcconfig"

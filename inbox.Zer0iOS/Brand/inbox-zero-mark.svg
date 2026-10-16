@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="inbox.Zer0 mark">
+  <rect width="1024" height="1024" fill="#F4F4F4"/>
+  <g fill="none" stroke="#151515" stroke-width="58" stroke-linecap="square">
+    <path d="M512 226V798"/>
+    <path d="M226 512H798"/>
+    <path d="M310 310L714 714"/>
+    <path d="M714 310L310 714"/>
+  </g>
+</svg>

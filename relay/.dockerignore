@@ -1,0 +1,12 @@
+.env
+.env.*
+*.pem
+*.key
+*.p8
+*.p12
+*service-account*.json
+.git
+.venv
+__pycache__
+*.pyc
+*.log
