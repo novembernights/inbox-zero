@@ -1,0 +1,81 @@
+name: Bug report
+description: Report a reproducible problem with the app, build, or tests.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve inbox.Zer0. Use fictional examples only.
+        Do not include real mail, addresses, attachments, account IDs, tokens, or unredacted logs/screenshots.
+        For a potential security vulnerability, follow [SECURITY.md](https://github.com/novembernights/inbox-zero/blob/main/SECURITY.md) instead of posting details publicly.
+  - type: checkboxes
+    id: preparation
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I removed personal data and credentials from this report and any attachments.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened, and what did you expect?
+      placeholder: Describe the actual and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Prefer the preview mailbox or a minimal fictional fixture. Include how often it happens.
+      placeholder: |
+        1. Launch with -MockUIData
+        2. Open...
+        3. Observe...
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where does it happen?
+      options:
+        - iPhone simulator
+        - Physical iPhone
+        - macOS companion or MailKit
+        - Build or development setup
+        - Optional relay
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Include a commit SHA or release, OS version, Xcode version, and device model when relevant. No serial numbers or device identifiers.
+      placeholder: |
+        Commit or release:
+        OS / simulator runtime:
+        Xcode (or Python for relay):
+        Device model:
+    validations:
+      required: true
+  - type: dropdown
+    id: mailbox
+    attributes:
+      label: Mail setup
+      description: Provider type only—never your email address or credentials.
+      options:
+        - Preview data (-MockUIData)
+        - Empty mailbox (no account)
+        - Gmail
+        - iCloud Mail
+        - Not applicable
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence or workaround (optional)
+      description: A minimal error excerpt, fictional-data screenshot, or relevant CI run link. Review every attachment before posting; do not upload full mail or diagnostic exports.

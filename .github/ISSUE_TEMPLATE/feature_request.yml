@@ -1,0 +1,58 @@
+name: Feature request
+description: Suggest an improvement and explain the problem it would solve.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the user need before the implementation. Small, focused proposals are easiest to discuss.
+        Use fictional examples; do not attach personal mail, credentials, or private artwork.
+  - type: checkboxes
+    id: preparation
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for a similar suggestion.
+          required: true
+        - label: This proposal and its attachments contain no personal data or credentials.
+          required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: What problem should this solve?
+      description: Who would benefit, and what is difficult today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the smallest useful version and how someone would use it.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds (optional)
+      description: What have you considered or tried already?
+  - type: textarea
+    id: success
+    attributes:
+      label: What would success look like?
+      description: List observable outcomes that would make the improvement complete.
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Privacy, permissions, and dependencies (optional)
+      description: Mention any new service, data leaving the device, permission, package, or licensed asset. Do not include credentials. Unknown is a valid answer.
+  - type: checkboxes
+    id: participation
+    attributes:
+      label: How could you help? (optional)
+      options:
+        - label: Discuss the design or requirements.
+        - label: Test a proposed implementation with fictional data.
+        - label: Contribute code or documentation after discussing the approach.
