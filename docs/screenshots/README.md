@@ -4,6 +4,7 @@ Actual captures of the sanitized app, taken on 16 October 2026 in a fresh iPhone
 
 - All displayed email content and account addresses are fictional preview fixtures.
 - Email and calendar accounts were not connected.
+- Home shows the normal empty-mailbox launch, including the daily overview and all four workflow queues.
 - No credentials, personal mail, contact library, or photos were used.
 - Ask demonstrates Metal rendering, not an AI response or recording session.
 - Composer and attachment captures show controls only; no message was sent and no personal attachment selected.
